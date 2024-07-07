@@ -30,7 +30,7 @@ function App() {
     <>
       <h1>Dictionary App</h1>
       <form onSubmit={handleForm}>
-        <input type="text" name="input" />
+        <input type="text" name="input" placeholder="Search for a word..."/>
         <button type="submit">Search</button>
       </form>
       <strong>Definition:</strong>
